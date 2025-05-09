@@ -1,9 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/app/page.tsx" }
-    ],
-    "routes": [
-      { "src": "/images/(.*)", "dest": "/public/images/$1" }
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
